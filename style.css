@@ -1,0 +1,15 @@
+#body div[id$="row"], #namesection {
+    display: flex;
+}
+
+#body{
+    border: 3px solid black;
+    margin:25%;
+    margin-top: 10%;
+}
+
+#display{
+    border: 1px solid black;
+    
+    margin: 3px;
+}

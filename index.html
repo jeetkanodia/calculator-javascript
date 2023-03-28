@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div id="body">
+        <div id="display">
+            1+2+3
+        </div>
+        <div id="namesection">
+            <div id="name">Jeet</div>
+            <div id="reset" onclick="clearDisplay();">AC</div>
+        </div>
+        <div id="sevenrow">
+            <div id="seven" data-type="7" onclick="clicked(this);">7</div>
+            <div id="eight" data-type="8" onclick="clicked(this);">8</div>
+            <div id="nine" data-type="9" onclick="clicked(this);">9</div>
+            <div id="divide" data-type="/" onclick="clicked(this);">/</div>
+        </div>
+        <div id="fourrow">
+            <div id="four" data-type="4" onclick="clicked(this);">4</div>
+            <div id="five" data-type="5" onclick="clicked(this);">5</div>
+            <div id="six" data-type="6" onclick="clicked(this);">6</div>
+            <div id="multiply" data-type="*" onclick="clicked(this);">*</div>
+        </div>
+        <div id="onerow">
+            <div id="one" data-type="1" onclick="clicked(this);">1</div>
+            <div id="two" data-type="2" onclick="clicked(this);">2</div>
+            <div id="three" data-type="3" onclick="clicked(this);">3</div>
+            <div id="subtract" data-type="-" onclick="clicked(this);">-</div>
+        </div>
+        <div id="zerorow">
+            <div id="equal" data-type="=" onclick="clicked(this);">=</div>
+            <div id="zero" data-type="0" onclick="clicked(this);">0</div>
+            <div id="plus" data-type="+" onclick="clicked(this);">+</div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
